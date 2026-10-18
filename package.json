@@ -31,7 +31,8 @@
 		"ai-setup:claudecode": "npm run ai-setup:import-from-opencode && npx rulesync generate --targets claudecode --features rules,commands,subagents",
 		"ai-setup:cursor": "npm run ai-setup:import-from-opencode && npx rulesync generate --targets cursor --features commands,subagents",
 		"ai-setup:copilot": "npm run ai-setup:import-from-opencode && npx rulesync generate --targets copilot --features commands,subagents",
-		"prepare": "husky"
+		"prepare": "husky",
+		"bench": "npx vitest bench --run --config vitest.bench.config.ts"
 	},
 	"devDependencies": {
 		"@actions/core": "1.11.1",
@@ -46,6 +47,7 @@
 		"@astrojs/starlight-tailwind": "5.0.0",
 		"@cloudflare/vitest-pool-workers": "0.10.7",
 		"@cloudflare/workers-types": "4.20260317.1",
+		"@codspeed/vitest-plugin": "6.1.0",
 		"@expressive-code/plugin-collapsible-sections": "0.41.3",
 		"@expressive-code/plugin-line-numbers": "0.41.3",
 		"@floating-ui/react": "0.27.16",
