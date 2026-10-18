@@ -1,5 +1,7 @@
 # Cloudflare Developer Documentation
 
+[![CodSpeed](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://app.codspeed.io/calimullinrim-droid/cloudflare-docs?utm_source=badge)
+
 Welcome to the open-source repository for all [Cloudflare Developer Documentation](https://developers.cloudflare.com/).
 
 To learn how to contribute, visit the [contribution page](https://developers.cloudflare.com/style-guide/contributions/) of the Cloudflare Style Guide.
